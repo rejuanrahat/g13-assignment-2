@@ -22,6 +22,26 @@
     border: none;
     cursor: pointer;
 }
+.button .spotify button{
+    background: linear-gradient(48.06deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%);
+    border-radius: 10000px;
+    width: 135px;
+    height: 44px;
+    padding: 16px 12px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
 
 
 /* navbar related styles */
@@ -57,4 +77,67 @@
 .title span{
     background: linear-gradient(48.06deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%) transparent;
     border-radius: 10px;
+}
+
+
+/* hero section related styles */
+
+.hero-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container{
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+    padding: 100px 20px;
+    max-width: 1900px;
+}
+
+.hero-section .hero-container .image{
+    position: relative;
+    display: inline-block;
+    margin: 0 100px 40px;
+    width: 500px;
+    height: auto;
+}
+
+.hero-container .discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container .discription h2{
+    width: 550px;
+    height: 73px;
+    font-weight: 600;
+    line-height: auto;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 72px;
+    margin: 40px 0 8px;
+}
+
+.hero-container .discription p{
+    font-size: 16px;
+    line-height: auto;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.hero-container .button .subscribe button{
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    width: 150px;
+    height: 44px;
+    color: #00FF88;
+    background: transparent;
 }
