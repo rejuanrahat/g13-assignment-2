@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Shared styles */
+
+
+.btn-primary button{
+    background: linear-gradient(48.06deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%);
+    border-radius: 10000px;
+    width: 135px;
+    height: 44px;
+    padding: 16px 12px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* navbar related styles */
+
+.navbar{
+    display: flex;
+    padding: 20px 50px;
+    background-color: #1a0b2e;
+}
+
+.title{
+    color: #FFFFFF;
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.menu  a{
+    text-decoration: none;
+}
+
+.title span{
+    background: linear-gradient(48.06deg, #F7E93F 16.53%, #FB09B4 49.82%, #9100F8 81.65%) transparent;
+    border-radius: 10px;
+}
