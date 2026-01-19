@@ -72,6 +72,7 @@
 
 .menu  a{
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .title span{
@@ -140,4 +141,44 @@
     height: 44px;
     color: #00FF88;
     background: transparent;
+}
+
+/* about section related styles */
+
+
+.about-section{
+    background-color: #1A0B2E;
+    text-align: center;
+    padding: 50px 200px 120px;
+}
+
+.about-container .headline{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: auto;
+    margin-bottom: 16px;
+}
+
+.about-container p{
+    color: #FFFFFF;
+    line-height: 20px;
+    margin-bottom: 160px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.card-container h2{
+    font-size: 48px;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+
+.card-container p{
+    line-height: 20px;
+    color: #FFFFFF;
 }
