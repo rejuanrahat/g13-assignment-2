@@ -503,11 +503,58 @@
         justify-content: space-between;
     }
 
+}
+ 
+
+@media screen and (max-width: 576px){
     /* hero section responsive */
 
+    .hero-section{
+        padding: 40px 20px;
+        background-position: center;
+    }
 
+    .hero-circle{
+        width: 250px;
+    }
 
-    /* about section */
+    .mic{
+        width: 47px;
+    }
+
+    .new-badge{
+        top: 60px;
+        right: 0px;
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+
+    .desktop-title{
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+
+    .hero-subtitle{
+        font-size: 1rem;
+        margin-bottom: 30px;
+        padding: 0 10px;
+    }
+
+    .hero-buttons{
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap
+    }
+
+    .btn-two, .btn-subscribe{
+        width: 60px;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px){
+      /* about section */
 
     .about-section{
         padding: 60px 20px;
@@ -528,7 +575,9 @@
     .card-container h2{
         font-size: 32px;
     }
-
+}
+  
+@media screen and (max-width: 576px){
     /* choose section responsive */
 
     .choose{
@@ -546,7 +595,9 @@
         padding: 30px;
         text-align: left;
     }
-
+}
+    
+@media screen and (max-width: 576px){
     /* host section responsive */
 
     .host{
@@ -577,7 +628,9 @@
     .alex .discription p br{
         display: none;
     }
-
+}
+    
+@media screen and (max-width: 576px){
     /* footer section responsive */
 
     .footer{
@@ -595,3 +648,4 @@
         gap: 15px;
     }
 }
+    
