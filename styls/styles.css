@@ -182,3 +182,97 @@
     line-height: 20px;
     color: #FFFFFF;
 }
+
+
+/* choose section related styles */
+
+
+.choose{
+    background-color: #230E3D;
+    padding: 120px 200px;
+    gap: 40px;
+}
+
+.choose-container .choose-title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+#Premium{
+    grid-area: Premium;
+}
+
+#mobile{
+    grid-area: mobile;
+}
+
+#Global{
+    grid-area: Global;
+}
+
+#exclusive{
+    grid-area: exclusive;
+}
+
+#Rich{
+    grid-area: Rich;
+}
+
+.choose-container .choose-cards{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "Premium mobile mobile"
+    "Premium Global Global"
+    "exclusive exclusive Rich";
+}
+
+
+.choose-container .choose-cards .first-card{
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 108px 40px;
+    border-radius: 40px;
+}
+
+.choose-container .choose-cards .first-card img{
+    margin-bottom: 21px;
+}
+
+.choose-container .choose-cards .first-card h3{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.choose-container .choose-cards .first-card p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.choose-container .choose-cards .card{
+    background-color:rgba(53, 17, 101, 0.4) ;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.choose-container .choose-cards .card img{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.choose-container .choose-cards .card h3{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.choose-container .choose-cards .card p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
