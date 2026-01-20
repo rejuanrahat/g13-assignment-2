@@ -276,3 +276,118 @@
     line-height: 24px;
     color: #FFFFFF;
 }
+
+
+/* host section related styles */
+
+
+.host{
+    background-color: #1A0B2E;
+    gap: 120px;
+    padding: 120px 200px;
+}
+
+.host-container .title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.host-cards{
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+
+.host-cards .cards{
+    background-color: #250D44;
+    padding: 24px;
+    gap: 12px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.host-cards .cards iframe{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+}
+
+.host-cards .cards h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.host-cards .cards .pera{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.host-cards .cards .time{
+    color: #00FF88;
+    line-height: 24px;
+    font-size: 16px; 
+}
+
+.host-container .host-meet{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.alex{
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    display: flex;
+    gap: 24px;
+    border-radius: 15px;
+}
+
+.alex h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.alex p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.alex ul{
+    display: flex;
+    gap: 8px;
+}
+
+.alex ul li{
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alex ul li img{
+    width: 20px;
+    height: 20px;
+}
