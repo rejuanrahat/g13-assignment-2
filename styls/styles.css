@@ -52,6 +52,10 @@
     background-color: #1a0b2e;
 }
 
+.nav-container .images{
+    display: none;
+}
+
 .title{
     color: #FFFFFF;
 }
@@ -503,6 +507,10 @@
         justify-content: space-between;
     }
 
+    .nav-container .images{
+        display: inline-block;
+    }
+
 }
  
 
@@ -649,3 +657,38 @@
     }
 }
     
+ .simple-loader {
+    position: fixed;
+    inset: 0;
+    background: #0f0525; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    animation: simpleFadeOut 0.5s ease 1.5s forwards;
+    pointer-events: none; 
+}
+.pulse {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(150deg, #F7E93F, #FB09B4, #9100F8);
+    border-radius: 50%;
+    animation: simplePulse 1s ease-out infinite;
+}
+@keyframes simplePulse {
+    0% {
+        transform: scale(0.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes simpleFadeOut {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
